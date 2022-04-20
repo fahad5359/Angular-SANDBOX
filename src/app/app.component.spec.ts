@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angg-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angg-app');
+    expect(app.mynem).toEqual('angg-app');
   });
 
   it('should render title', () => {
