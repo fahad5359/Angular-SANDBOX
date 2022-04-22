@@ -13,6 +13,7 @@ export class ServerComponent{
     pricce:number = 500;
     // so here with Property Binding we can manipulate the values as we want.
     bttn: boolean=true;
+    WlcmMessage="Sorry the website is under cionstruction"
     resept(){
         // so we can return a varrible and use the method in the fucntion. 
         return this.pricce;
