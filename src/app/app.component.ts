@@ -11,6 +11,6 @@ export class AppComponent {
   message="hey my name is"
   message2="it has been changed from"
   addNewNem(){
-    this.nemDispalyign=this.message+" "+"mohammed"+" "+this.message2+" "+this.nemDispalyign+" "+"to"+" "+"mohammed"
+    this.nemDispalyign="kaled"
   }
 }
