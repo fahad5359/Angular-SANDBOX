@@ -3,4 +3,5 @@
 <input type="text" (input)="userval($event)">
 <p>{{dispalayVal}}</p>
 <!-- this button should only work if there is text on the Input. -->
-<button>Rest</button>
+<button [disabled]="dispalayVal===''">Reset</button>
+<!-- as u see above we can add some kind of conditionals, on the display property.  we sayed that if the dispalayVal is === to an empty String, disable the button ,else enable it again. -->
