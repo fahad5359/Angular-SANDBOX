@@ -1,10 +1,23 @@
+
+<!-- do a button disable andd add an event with this button  -->
 <!-- <p>testt works!</p> -->
-<div class="container">
+<!-- <div class="container">
     <h3>{{vaaalue}} </h3>
     <h5>{{vaaalue}}</h5>
-<button   (click)="Changenems()">Press</button>
-<button   (click)="sj()">Press</button>
-<input [type]="inbty">
+    <button (click)="Changenems()">Press</button>
+    <button (click)="sj()">Press</button>
+    <input [type]="inbty">
+</div> -->
+<!-- ------------------------------------------------------------- -->
 
-</div>
-<!-- do a button disable andd add an event with this button  -->
+<!-- so we want to display the input from the user.  -->
+
+<!--  we want to out put the value that the user wrote .
+ **so the events naturally send info from the html to JS by using the dom** the Click event sends some coardinent, and in Angular the **input + the ($event)** together when in an input in the html file can sent the value that have been intered from the user  -->
+<input type="text" (input)="displayNem($event)">
+    <p>{{giveNem}}</p> 
+    <p>
+        {{statuss}}
+
+    </p>
+    <button (click)="bbtn()">press for status</button>
