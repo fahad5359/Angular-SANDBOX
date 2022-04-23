@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { ServerComponent } from './Server/server.component';
 import { SservvrsComponent } from './sservvrs/sservvrs.component';
 import { TesttComponent } from './testt/testt.component';
+import { Hww } from './HW 2/hw2.compponent';
 
 
 
@@ -17,7 +18,8 @@ import { TesttComponent } from './testt/testt.component';
     // Bello is the newly created Component
     ServerComponent,
     SservvrsComponent,
-    TesttComponent
+    TesttComponent,
+    Hww
   ],
   imports: [
     BrowserModule, FormsModule
