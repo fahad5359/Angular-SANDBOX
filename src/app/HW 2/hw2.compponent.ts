@@ -6,11 +6,13 @@ import { Component } from "@angular/core";
 })
 export class Hww {
 
-    dispalayVal = "Type somthing"
-    userval(event: any) {
-        this.dispalayVal=event.target.value
-        console.log(event);
-        
-    }
+    dispalayVal = " "
+
+    // btnstat = false
+
+
+    // userval(event: any) {
+    //     this.dispalayVal = event.target.value
+    // }
 
 }
