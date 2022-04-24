@@ -1,8 +1,19 @@
 <!-- Test -->
 
 <!-- <input type="text" (input)="userval($event)"> -->
+<div class="container">
 <input type="text" [(ngModel)]="dispalayVal">
 <p>{{dispalayVal}}</p>
+<button>Clear</button>
+</div>
+<div class="container">
+    
+
+<input [type]=[inPt]>
+<!-- <input type="submit"  > -->
+<button (click)="iinBut()">To number</button>
+<button (click)="iinButt()">Text</button>
+</div>
 <!-- this button should only work if there is text on the Input. -->
 <!-- <button
  [disabled]="dispalayVal=== ' ' "
