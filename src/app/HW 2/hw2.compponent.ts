@@ -6,8 +6,8 @@ import { Component } from "@angular/core";
 })
 export class Hww {
 
-    dispalayVal = " "
-    inPt="text"
+    dispalayVal = '';
+    inPt="text";
     iinBut(){
         this.inPt="number"
     }
