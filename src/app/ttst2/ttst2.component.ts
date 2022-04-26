@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class Ttst2Component  {
   som=""
   neem=""
+trueFalse=false
   neemAdd(){
     this.neem="All good"
+    this.trueFalse=true
   }
 
 

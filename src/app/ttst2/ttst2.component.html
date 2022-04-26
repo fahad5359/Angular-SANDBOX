@@ -1,8 +1,12 @@
 <p>ttst2 works!</p>
 <div class="container">
-    
-    <input type="text"[(ngModel)]="som">
+
+    <input type="text" [(ngModel)]="som">
     <p>{{som}}</p>
     <button type="submit" (click)="neemAdd()">Add</button>
-    <p>{{neem}} the nem u created id {{som}}</p>
+    <p *ngIf="trueFalse; else eelseDothis">{{neem}} the nem u created id {{som}}.</p>
+
+    <ng-template #eelseDothis>
+        <p>Nem was not added.</p>
+    </ng-template>
 </div>
