@@ -5,18 +5,16 @@ import { Component } from "@angular/core";
     templateUrl: './hw2.compponent.html'
 })
 export class Hww {
-
+    asd = "asad"
     dispalayVal = '';
-    inPt="text";
-    iinBut(){
-        this.inPt="number"
+    inPt = "text";
+    iinBut() {
+        this.inPt = "number"
     }
-    iinButt(){
-        this.inPt="text"
+    iinButt() {
+        this.inPt = "text"
     }
     // btnstat = false
-
-
     // userval(event: any) {
     //     this.dispalayVal = event.target.value
     // }
