@@ -8,7 +8,8 @@ import { ServerComponent } from './Server/server.component';
 import { SservvrsComponent } from './sservvrs/sservvrs.component';
 import { TesttComponent } from './testt/testt.component';
 import { Hww } from './HW 2/hw2.compponent';
-import { HW2oComponent } from './hw2o/hw2o.component';
+import { Ttst2Component } from './ttst2/ttst2.component';
+
 
 
 
@@ -21,7 +22,7 @@ import { HW2oComponent } from './hw2o/hw2o.component';
     SservvrsComponent,
     TesttComponent,
     Hww,
-    HW2oComponent
+    Ttst2Component
   ],
   imports: [
     BrowserModule, FormsModule
