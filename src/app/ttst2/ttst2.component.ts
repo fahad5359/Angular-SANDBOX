@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-ttst2',
@@ -9,10 +9,21 @@ export class Ttst2Component  {
   som=""
   neem=""
 trueFalse=false
+statisOfProfile="offline"
+
+
+constructor(){
+  this.statisOfProfile = Math.random()>0.5 ? 'online':'offline';
+}
+
+
   neemAdd(){
     this.neem="All good"
     this.trueFalse=true
   }
 
 
+  getColorr() {
+    return this.statisOfProfile === 'online' ? 'green' : 'red';
+  }
 }

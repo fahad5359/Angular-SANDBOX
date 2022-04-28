@@ -3,10 +3,12 @@
 
     <input type="text" [(ngModel)]="som">
     <p>{{som}}</p>
-    <button type="submit" (click)="neemAdd()">Add</button>
+    <button type="submit"  (click)="neemAdd()">Add</button>
     <p *ngIf="trueFalse; else eelseDothis">{{neem}} the nem u created id {{som}}.</p>
 
     <ng-template #eelseDothis>
         <p>Nem was not added.</p>
     </ng-template>
+    <p [ngStyle]="{backgroundColor: getColorr()}">Ur Profile is {{statisOfProfile}}</p>
+
 </div>
