@@ -9,6 +9,10 @@
     <ng-template #eelseDothis>
         <p>Nem was not added.</p>
     </ng-template>
-    <p [ngStyle]="{backgroundColor: getColorr()}">Ur Profile is {{statisOfProfile}}</p>
+    <!-- <p [ngStyle]="{backgroundColor: getColorr()}">Ur Profile is {{statisOfProfile}}</p> -->
+    <p [ngStyle]="{ 
+        backgroundColor: hlaa? 'pink':'pink'
+      }">Ur Profile is {{hlaa}}</p>
+   
 
 </div>
