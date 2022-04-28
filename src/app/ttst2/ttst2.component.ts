@@ -9,8 +9,8 @@ export class Ttst2Component  {
   som=""
   neem=""
 trueFalse=false
-statisOfProfile="offline"
-
+statisOfProfile=""
+hlaa="Active"
 
 constructor(){
   this.statisOfProfile = Math.random()>0.5 ? 'online':'offline';
@@ -24,6 +24,9 @@ constructor(){
 
 
   getColorr() {
+    // as u see bwllow this function has a condition:  that if the "statisOfProfile" equls online, make its background color equls to green, else put red
     return this.statisOfProfile === 'online' ? 'green' : 'red';
   }
+   randommm:string;
+
 }
