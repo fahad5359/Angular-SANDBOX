@@ -5,7 +5,7 @@
     <p>{{som}}</p>
     <button type="submit"  (click)="neemAdd()">Add</button>
     <p *ngIf="trueFalse; else eelseDothis">{{neem}} the nem u created  {{som}}.</p>
-    <p>The Ids u created are {{baag}}</p>
+    <p *ngFor="let nems of baag" >The Ids u created are {{baag}}</p>
     <ng-template #eelseDothis>
         <p>Nem was not added.</p>
         
