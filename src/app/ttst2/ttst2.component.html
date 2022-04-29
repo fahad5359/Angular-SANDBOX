@@ -4,10 +4,11 @@
     <input type="text" [(ngModel)]="som">
     <p>{{som}}</p>
     <button type="submit"  (click)="neemAdd()">Add</button>
-    <p *ngIf="trueFalse; else eelseDothis">{{neem}} the nem u created id {{som}}.</p>
-
+    <p *ngIf="trueFalse; else eelseDothis">{{neem}} the nem u created  {{som}}.</p>
+    <p>The Ids u created are {{baag}}</p>
     <ng-template #eelseDothis>
         <p>Nem was not added.</p>
+        
     </ng-template>
     <!-- <p [ngStyle]="{backgroundColor: getColorr()}">Ur Profile is {{statisOfProfile}}</p> -->
     <p [ngStyle]="{ 

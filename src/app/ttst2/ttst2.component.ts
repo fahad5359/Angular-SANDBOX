@@ -11,6 +11,7 @@ export class Ttst2Component  {
 trueFalse=false
 statisOfProfile=""
 hlaa="Active"
+baag=['ahmad','fahad']
 
 constructor(){
   this.statisOfProfile = Math.random()>0.5 ? 'online':'offline';
@@ -19,6 +20,7 @@ constructor(){
 
   neemAdd(){
     this.neem="All good"
+    this.baag.push(this.som)
     this.trueFalse=true
   }
 
